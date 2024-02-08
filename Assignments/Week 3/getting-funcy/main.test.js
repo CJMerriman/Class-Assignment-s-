@@ -1,6 +1,26 @@
 /**********************************
  * YOUR CODE GOES HERE THIS TIME! *
  **********************************/
+//  Creating Variables 
+let x = 3;
+let y = 10;
+let z = 4;
+let greeting = "hello";
+let firstName = "Charlene Merriman";
+let callStatus = "ringing";
+
+// Creating Functions
+function double() {
+  // Double the value of x
+  x = x * 2;
+}
+function triple() {
+  //triple the value of y
+  y = y * 3;
+}
+
+
+
 
 
 

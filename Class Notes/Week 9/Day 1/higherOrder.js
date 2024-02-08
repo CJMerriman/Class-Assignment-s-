@@ -1,4 +1,4 @@
-A callback is a function which can be passed as parameter to other function. See the example below.
+// A callback is a function which can be passed as parameter to other function. See the example below.
 
 // a callback function, the name of the function could be any name
 const callback = (n) => {

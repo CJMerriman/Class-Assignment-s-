@@ -1,7 +1,13 @@
 /******************
  * YOUR CODE BELOW *
  ******************/
-
+var myFirstName = "charlene";
+var myLastName = "Merriman";
+var myFavoriteCeleb = "Kevin Barnes";
+var mySentence = "myFirstName, myLastName, Kevin Barnes";
+var myLuckyNum = 13;
+var myAge = 43;
+var myHeight = 65;
 
 /*********************************************************************************************************************
 
