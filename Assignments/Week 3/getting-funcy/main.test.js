@@ -18,7 +18,22 @@ function triple() {
   //triple the value of y
   y = y * 3;
 }
+function square() {
+  // Compute the square of a number
+  z = z ** 2;
+}
 
+function beNice() {
+  return greeting = "hello" + " " + firstName
+}
+
+function changeName() {
+  firstName = 'Danger';
+}
+
+function hangUp() {
+  callStatus = "call ended"
+}
 
 
 
