@@ -8,6 +8,25 @@ var mySentence = "myFirstName, myLastName, Kevin Barnes";
 var myLuckyNum = 13;
 var myAge = 43;
 var myHeight = 65;
+var myFavoriteYear = 2024;
+
+// Create the variable mySum and calculate the sum
+var mySum = 5 + 2317 + 36;
+// Print the result to the console
+//console.log(mySum); // Output will be 2358
+
+// Create the variable myProduct and calculate the product
+var myProduct = ((232 * 43) / 2) + 4;
+// Print the result to the console
+//console.log(myProduct); // Output will be 4996
+
+// Define variables for age and height
+var myAge = 43; // This is just an example, you should replace it with your actual age
+var myHeightInInches = 65; // This is just an example, you should replace it with your actual height in inches
+// Calculate the sum of age and height
+var myHeightAndAge = myAge + myHeightInInches;
+
+
 
 /*********************************************************************************************************************
 
