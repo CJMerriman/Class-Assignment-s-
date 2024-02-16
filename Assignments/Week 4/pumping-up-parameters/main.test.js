@@ -1,11 +1,21 @@
-/*
-
-Your code goes below.
-
-*/
 
 
+//Your code goes below.
 
+
+// Initial values
+var x = 3;
+var y = 10;
+var z = 5;
+var name = "Charlene"; // Replace "Charlene" with your actual first name
+var greeting = "HEY";
+var x = 5;
+
+// Initial value of x
+// Function to multiply x by a parameter
+function multiply(parameter) {
+  x *= parameter;
+}
 
 
 /*********************************************************************************************************************
