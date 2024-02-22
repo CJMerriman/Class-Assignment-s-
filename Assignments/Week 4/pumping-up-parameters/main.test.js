@@ -4,18 +4,30 @@
 
 
 // Initial values
-var x = 3;
-var y = 10;
-var z = 5;
-var name = "Charlene"; // Replace "Charlene" with your actual first name
-var greeting = "HEY";
-var x = 5;
+let x = 3;
+let y = 10;
+let z = 5;
+let name = "Charlene"; // Replace "Charlene" with your actual first name
+let greeting = 'HEY';
 
-// Initial value of x
-// Function to multiply x by a parameter
 function multiply(parameter) {
   x *= parameter;
 }
+function modYBy(parameter) {
+  y %= parameter;
+}
+function makeFullName(lastName) {
+  name += ' ' + lastName;
+}
+function yellAt(str) {
+  greeting += ', ' + str + '!';
+}
+function opposite(parameter) {
+  z = -parameter;
+}
+
+z = -parameter;
+
 
 
 /*********************************************************************************************************************

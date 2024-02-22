@@ -3,6 +3,21 @@
  ******************/
 
 
+//#49
+  
+//#63
+function womenOnly(names) {
+  return names.filter(name => name.endsWith('F'));
+}
+//#64
+function integersOnly(numbers) {
+  return numbers.filter(num => num % 1 === 0);
+}
+
+
+
+
+
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
  *********************************/

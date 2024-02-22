@@ -112,3 +112,62 @@
 
 // const addNumbers = (a, b) => a + b
 // console.log(addNumbers(2, 3))
+
+
+    //CREATE A SET
+// const numbers = new Set();
+
+    // //ADD VALUES TO THE SET
+// numbers.add(1);
+// numbers.add(2);
+// numbers.add(3)
+
+// console.log(numbers)
+
+    //CREATE A VARIABLES
+// const a = "apples";
+// const b = "ball";
+// const c = "cat";
+//     //CREATE A SET
+// const things = new Set();
+//     //SET VARIABLES TO THE SET
+// things.add(a);
+// things.add(b);
+// things.add(c)
+
+// console.log(things)
+
+// function name(params) {
+        //CREATE A SET
+const fruits = new Set(["Bananas", "blackberrys", "oranges"]);
+        //LIST ALL ELEMENTS
+let text = "";
+fruits.forEach (function(value) {
+        text += value + "<br>";
+}) 
+console.log(fruits) 
+    //DELETING AN ELEMENT 
+console.log(fruits.delete("blackberrys"))
+console.log(fruits.size)
+console.log(fruits.has("Bananas"))
+
+
+//     //CREATE A SET
+// const letters = now Set(["a", "b", "c"]);
+//     //LIST ALL ELEMENTS
+// let text = "";   
+// for (const x of letters.values()) {
+//     text += x + "<br>";
+// } 
+// console.log(text)
+
+    //CREATING A UNION OG TWO SETS
+let a = [1, 2, 3, 4, 5]
+let a = [3, 4, 5, 6]
+let c = [...a, ...b]
+
+let A = new Set(a)
+let B = new Set(b)
+let C = new Set(c)
+
+
