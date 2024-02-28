@@ -139,17 +139,17 @@
 
 // function name(params) {
         //CREATE A SET
-const fruits = new Set(["Bananas", "blackberrys", "oranges"]);
-        //LIST ALL ELEMENTS
-let text = "";
-fruits.forEach (function(value) {
-        text += value + "<br>";
-}) 
-console.log(fruits) 
-    //DELETING AN ELEMENT 
-console.log(fruits.delete("blackberrys"))
-console.log(fruits.size)
-console.log(fruits.has("Bananas"))
+// const fruits = new Set(["Bananas", "blackberrys", "oranges"]);
+//         //LIST ALL ELEMENTS
+// let text = "";
+// fruits.forEach (function(value) {
+//         text += value + "<br>";
+// }) 
+// console.log(fruits) 
+//     //DELETING AN ELEMENT 
+// console.log(fruits.delete("blackberrys"))
+// console.log(fruits.size)
+// console.log(fruits.has("Bananas"))
 
 
 //     //CREATE A SET
@@ -162,12 +162,18 @@ console.log(fruits.has("Bananas"))
 // console.log(text)
 
     //CREATING A UNION OG TWO SETS
-let a = [1, 2, 3, 4, 5]
-let a = [3, 4, 5, 6]
-let c = [...a, ...b]
+// let a = [1, 2, 3, 4, 5]
+// let a = [3, 4, 5, 6]
+// let c = [...a, ...b]
 
-let A = new Set(a)
-let B = new Set(b)
-let C = new Set(c)
+// let A = new Set(a)
+// let B = new Set(b)
+// let C = new Set(c)
 
+let addNumbers = [13, 43, 21, 25, 2]
+
+let modNumbers = addNumbers.map(function(element) {
+    return element * 2
+}) 
+console.log(modNumbers)
 
