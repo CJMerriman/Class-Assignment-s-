@@ -4,29 +4,21 @@
 
 
 // Initial values
-let x = 3;
-let y = 10;
-let z = 5;
-let name = "Charlene"; // Replace "Charlene" with your actual first name
-let greeting = 'HEY';
+var x = 3;
+var y = 10;
+var z = 5;
+var name = "Charlene"; // Replace "Charlene" with your actual first name
+var greeting = 'HEY';
 
-function multiply(parameter) {
-  x *= parameter;
-}
-function modYBy(parameter) {
-  y %= parameter;
-}
-function makeFullName(lastName) {
-  name += ' ' + lastName;
-}
-function yellAt(str) {
-  greeting += ', ' + str + '!';
-}
-function opposite(parameter) {
-  z = -parameter;
+function multiply(factor) {
+  x *= factor;
 }
 
-z = -parameter;
+// Example usage:
+var number = 5;
+multiply(number, 2);
+console.log(number); // This will output 5 because `x` inside the function is a local variable and does not affect the original variable `number`.
+
 
 
 

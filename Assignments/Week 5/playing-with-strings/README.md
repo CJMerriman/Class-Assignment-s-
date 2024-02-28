@@ -47,7 +47,7 @@ Your task is to write a series of functions that execute the following tasks:
   * Examples:
     * truncate('The fault, dear Brutus, is not in our stars, but in ourselves.') -> 'The fault, dear...'
     * truncate("Well, that's just, like, your opinion man.") -> "Well, that's ju..."
-* `ciEmailify` - creates an email from a two-part name
+* `` ciEmailify creates an email from a two-part name, handles uppercased names
   * Examples:
     * ciEmailify('colin jaffe') -> 'colin.jaffe@codeimmersives.com'
     * ciEmailify('Anthony DeRosa') -> 'anthony.derosa@codeimmersives.com'
