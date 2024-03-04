@@ -4,20 +4,28 @@
 
 
 // Initial values
-var x = 3;
-var y = 10;
-var z = 5;
-var name = "Charlene"; // Replace "Charlene" with your actual first name
-var greeting = 'HEY';
+let x = 3;
+let y = 10;
+let z = 5;
+let name = "Charlene"; // Replace "Charlene" with your actual first name
+let greeting = 'HEY';
 
 function multiply(factor) {
   x *= factor;
 }
+function modYBy(divisor) {
+  y %= divisor;
+}
+function opposite(number) {
+  z = Math.abs(number) * (number > 0 ? -1 : 1);
+}
 
-// Example usage:
-var number = 5;
-multiply(number, 2);
-console.log(number); // This will output 5 because `x` inside the function is a local variable and does not affect the original variable `number`.
+let makeFullName = function(lastName) {
+  name += " " + lastName;
+};
+function yellAt(str) {
+  greeting += ", " + str + "!";
+}
 
 
 
