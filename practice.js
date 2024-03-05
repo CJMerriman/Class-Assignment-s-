@@ -170,10 +170,55 @@
 // let B = new Set(b)
 // let C = new Set(c)
 
-let addNumbers = [13, 43, 21, 25, 2]
+// let addNumbers = [13, 43, 21, 25, 2]
 
-let modNumbers = addNumbers.map(function(element) {
-    return element * 2
-}) 
-console.log(modNumbers)
+// let modNumbers = addNumbers.map(function(element) {
+//     return element * 2
+// }) 
+// console.log(modNumbers)
 
+ 
+// //  let text = `Is this 
+// // all there 
+// // is`;
+
+// // let pattern = /^is/mi;
+// // let result = text.match(pattern);
+
+// // console.log(result)
+
+
+// // const txt = `Python is the most beautiful language that a human begin has ever created. \ I recommend python for a first programming language`
+// // console.log(matchReplaced)
+
+// // matchReplaced = txt.replace(/Python|python/, `JavaScript`)
+// // console.log(matchReplaced)
+
+// // const txt = `%I a%m te%%a%%che%r% a%n%d %% I l%o%ve te%ach%ing.\ 
+// // T%he%re i%s n%o%th%ing as m%ore r%ewarding a%s e%duc%at%i%ng a%n%d e%m%p%ow%er%ing \ 
+// // p%e%o%ple.\
+// // I fo%und te%a%ching m%ore f%u%ll-f%i%lling th%en any%th%ing i%n th%is w%o%r%l%d`
+// // const matches = txt.replace(/%/g, '$')
+
+// // console.log(matches)
+
+// //Square Bracket
+// const pattern = '[Aa]pple' // this square bracket means either A or a
+// const txt = 'Apple and bananas are fruits. An old cliche says an apple a day keeps the docture away'
+// const matches = txt.match(pattern)
+
+// console.log(matches)
+
+// const pattern = /[Aa]pple/g // this square bracket means either A or a
+// const txt = 'Apple and bananas are fruits. An old cliche says an apple a day keeps the docture away'
+// const matches = txt.match(pattern)
+
+// console.log(matches)
+
+// //Let's search for the word "banana"
+
+// const pattern = /[Aa]pple|[Bb]anana/g // this square bracket means either A or a
+// const txt = 'Apple and bananas are fruits. An old cliche says an apple a day keeps the docture away'
+// const matches = txt.matches(pattern)
+
+// console.log(matches)
