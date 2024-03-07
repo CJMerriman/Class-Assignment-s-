@@ -1,87 +1,46 @@
 /******************
  * YOUR CODE HERE *
  ******************/
-const addAll = function(arr){
-  let sum = 0
-  for(let num of arr){
-    sum += num
-  }
-  //return sum
+
+
+const cubeAll = function(arr) {
+  return arr.map(num => num ** 3);
 }
-const countSpaces = function (str){
-  let count = 0
-  for(let char of str){
-    if(char === ' '){
-      count++
+
+const addNoises = function(arr) {
+  const animalNoises = {
+    cat: 'meow',
+    dog: 'woof',
+    bird: 'tweet'
+    // Add more animal noises as needed
+  };
+  
+  return arr.map(animal => {
+    if (animalNoises.hasOwnProperty(animal)) {
+      return `${animal} ${animalNoises[animal]}`;
+    } else {
+      return animal; // If the animal doesn't have a specified noise, return the animal name as is
     }
-  }
- // return count
-}
+  });
+};
+const womenOnly = function(arr) {
+  return arr.filter(name => name.endsWith('F'));
+};
 
-const countTrues = function(booleans){
-  let count = 0
-  for(let bool of booleans){
-    if(bool === true){
-      count++
-    }
-  }
-  //return count
-}
+const integersOnly = function(arr) {
+  return arr.filter(num => num % 1 === 0);
+};
 
-const makeFriendly = function(paragraph){
-  let result = ''
-  for (let char of paragraph){
-    if(char === '.'){
-      result += '!'
-    }else{
-      result += char
-    }
-  }
-  //return result
-}
+// function integersOnly(numbers) {
+//   // Filter out numbers that are integers
+//   let integers = numbers.filter(num => Number.isInteger(num));
+//   // Return the array containing only integers
+//   return integers;
+// }
 
-const cubeAll = function(arr){
-  let result = []
-  for (let num of arr){
-    result.push(num ** 3)
-  }
-  //return result
-}
-
-const addNoises = function(arr){
-  let result = []
-  for(animal of arr){
-    if (animal === 'Fido' || animal === 'Rolph' || animal === 'Maisie') {
-      result.push(animal + ' says "Woof!"')
-    } else if (animal === 'Garfield' || animal === 'Heathcliff') {
-      result.push(animal + ' says "Meow!"')
-    } else if (animal === 'Barnie' || animal === 'Sharp Tooth') {
-      result.push(animal + ' says "ROWR."')
-    }
-  }
- //return result
-}
-
-const womenOnly = function(arr){
-  const women = [];
-  for(let name of arr){
-    if(name.endsWith('F')){
-      women.push(name)
-    }
-  }
-  //return women;
-}
-
-function integersOnly(numbers) {
-  // Filter out numbers that are integers
-  let integers = numbers.filter(num => Number.isInteger(num));
-  // Return the array containing only integers
-  return integers;
-}
-
-// Example usage:
-let numbers = [1, 2, 3.5, 4, 5.8, 6];
-console.log(integersOnly(numbers)); // Output: [1, 2, 4, 6]
+// // Example usage:
+// let numbers = [1, 2, 3.5, 4, 5.8, 6];
+// console.log(integersOnly(numbers)); // Output: [1, 2, 4, 6]
 
   
 
