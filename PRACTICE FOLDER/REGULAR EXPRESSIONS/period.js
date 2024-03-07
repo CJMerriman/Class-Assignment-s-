@@ -1,6 +1,6 @@
 // Period (.)
 
-            //
+            // --> (.) <-- means the period will 
 const pattern = /[a].[d]/g // this square bracket means 0 and . means any character except new line.
 const txt = 'Apple and banana are fruits'
 const matches = txt.match(pattern)
