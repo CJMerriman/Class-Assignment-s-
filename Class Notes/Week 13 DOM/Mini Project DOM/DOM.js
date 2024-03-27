@@ -2,21 +2,21 @@
 
 // //// The year color is changing every 1 second
 // const colorGenerator = () => (
-//     const chars = "0123456789ABCDEF"
-//     let color = "#"
+//     const chars = document.querySelector("0123456789ABCDEF");
+//     let color = "#";
 //     for (let i = 0; i < 6; i++) {
 //         color += chars[Math.floor(math.random() * 16)]
-//     }
-//     return colorChanger = () => ();
+//     };
+//     return colorChanger;
 
 //     const header = document.querySelector('h1')
-// )
+// ;
 //  const headerPainter = () => {
 //     setInterval(()=>(
 //         header.style.color = colorGenerator()
 //     ), 1000)
-//  }
-//  headerPainter()
+//  };
+// headerPainter ()
 //  const wrapper = document.querySelector('.wrapper')
 //  const wrapperPainter = () => {
 //     setInterval(()=>{
@@ -61,34 +61,34 @@
 //     }, 1000);
 //   }
 
-// Completed challenge has background green
-// Ongoing challenge has background yellow
-// Coming challenges have background red
-function updateChallengeStatus() {
-    const challenges = document.querySelectorAll('#challenges li');
-    challenges.forEach((challenge) => {
-      if (challenge.textContent.includes('Done')) {
-        challenge.classList.add('completed');
-      } else if (challenge.textContent.includes('Ongoing')) {
-        challenge.classList.add('ongoing');
-      } else {
-        challenge.classList.add('coming');
-      }
-    });
-  }
-//create a function that generates random color
+// // Completed challenge has background green
+// // Ongoing challenge has background yellow
+// // Coming challenges have background red
+// // function updateChallengeStatus() {
+// //     const challenges = document.querySelectorAll('#challenges li');
+// //     challenges.forEach((challenge) => {
+// //       if (challenge.textContent.includes('Done')) {
+// //         challenge.classList.add('completed');
+// //       } else if (challenge.textContent.includes('Ongoing')) {
+// //         challenge.classList.add('ongoing');
+// //       } else {
+// //         challenge.classList.add('coming');
+// //       }
+// //     });
+// //   }
+// // //create a function that generates random color
  
-function getRandomColor() {
-    const letters = '0123456789ABCDEF';
-    let color = '#';
-    for (let i = 0; i < 6; i++) {
-      color += letters[Math.floor(Math.random() * 16)];
-    }
-    return color;
-  }
-console.log(Math.floor(Math.random() * 16))
-  // Call functions
-  changeYearColor();
-  changeDateTimeBackground();
-  updateChallengeStatus();
-  console.log(getRandomColor())
+// // function getRandomColor() {
+// //     const letters = '0123456789ABCDEF';
+// //     let color = '#';
+// //     for (let i = 0; i < 6; i++) {
+// //       color += letters[Math.floor(Math.random() * 16)];
+// //     }
+// //     return color;
+// //   }
+// // console.log(Math.floor(Math.random() * 16))
+// //   // Call functions
+// //   changeYearColor();
+// //   changeDateTimeBackground();
+// //   updateChallengeStatus();
+// //   console.log(getRandomColor())

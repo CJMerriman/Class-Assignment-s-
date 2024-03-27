@@ -1,0 +1,27 @@
+.number {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 50px;
+  border: 12px saddlebrown solid;
+}
+.country-box {
+  border: 6px solid #decbcb;
+  padding: 80px;
+  margin: 5px;
+  background-color: #e6e0e0c2;
+}
+.countries-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Arrange items from right to left */
+  justify-content: flex-start; /* Align items to the start of the flex container (top left) */
+}
+
+/* .country-box {
+  border: 4px solid #f09898;
+  padding: 80px;
+  margin: 5px;
+  background-color: #f2efef;
+} */
