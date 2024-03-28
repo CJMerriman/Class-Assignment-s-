@@ -24,16 +24,25 @@
 
 localStorage.setItem("firstName" , "Dimples");
  console.log(localStorage);
+ 
 localStorage.setItem("lastName" , "Merriman");
  var firstName = localStorage.getItem("firstName");
  console.log(firstName);
 //   localStorage.clear()
 localStorage.removeItem("firstName");
 
-//STRINGIFYING OR ASKING AN ARRAY INTO STRING FORMAT IN ORDER TO STORE INTO OUR LOCAL STORAGE
+//CREATING AN ARRAY OF FRUITS
 const fruits = ['bananas', 'pinnapples', 'gauvas'];
+
+//STRINGIFYING OR ASKING AN ARRAY INTO STRING FORMAT IN ORDER TO STORE INTO OUR LOCAL STORAGE
 const fruitsJson = JSON.stringify(fruits, undefined, 3);
+
 localStorage.setItem("fruits", fruitsJson);
 //ALWAYS PUT KEY VARIABLIES IN ""
 
-//
+//get fruits item from our local storage but in a string forat
+let fruitsData = localStorage.getItem("fruits");
+
+//change array from string format to an actual array
+const fruitsJsonparse = JSON.parse(fruitsData, underFined, 3);
+console.log(fruitsJsonparse);
