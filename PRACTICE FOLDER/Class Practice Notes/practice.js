@@ -222,3 +222,15 @@
 // const matches = txt.matches(pattern)
 
 // console.log(matches)
+
+//CREATING ELEMENTS
+let title
+for(let i = 0; i < 3; i++){
+    title = document.createElement("h1");
+    title.textContent = `This is the header number ${i + 1}`
+    title.style.fontSize = "24px";
+    title.className = "header class";
+    title.id = `header ${1 + 1}`;
+    console.log(title)
+    document.body.appendChild(title)
+}
