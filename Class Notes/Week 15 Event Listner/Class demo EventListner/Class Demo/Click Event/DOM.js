@@ -1,28 +1,21 @@
 /////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////// Event Listeners//////////////////////////////////////////
-// selectedElement.addEventListener('eventlistner', function(e) {
-//     // the activity you want to occur after the event will be in here
-//   })
-//   // or
+let selectedElement=document.querySelector("button")
+selectedElement.addEventListener('click', function() {
+    console.log("Hey You just clicked a button")
+  })
+  // or
   
-//   selectedElement.addEventListener('eventlistner', e => {
-//     // the activity you want to occur after the event will be in here
-//   })
+  selectedElement.addEventListener('eventlistner', e => {
+    // the activity you want to occur after the event will be in here
+  })
+
+// Evernt listner Video 
+// https://www.youtube.com/watch?v=XF1_MlZ5l6M
 
 
 // Click
 
-let button=document.querySelector("button")
-button.addEventListener("click", e =>{
-    
-    console.log("e gives the event listener e", e)
-    
-     console.log(e.target)
 
-    })
-function clickMe(e){
-    alert("We can attach events on HTLM elements")
-    console.log("e gives the event listener e", e)
-   
-}
+
 
