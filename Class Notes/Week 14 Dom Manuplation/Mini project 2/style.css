@@ -4,14 +4,14 @@
   height: 100px;
   margin: 10px;
   text-align: center;
-  line-height: 50px;
-  border: 12px saddlebrown solid;
+  line-height: 40px;
+  border: 10px rgb(90, 202, 247) solid;
 }
 .country-box {
-  border: 6px solid #decbcb;
-  padding: 80px;
+  border: 2px solid #94f8d2;
+  padding: 60px;
   margin: 5px;
-  background-color: #e6e0e0c2;
+  background-color: #5d0af7c2;
 }
 .countries-wrapper {
   display: flex;
